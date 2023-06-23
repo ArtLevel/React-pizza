@@ -1,0 +1,41 @@
+.root {
+  display: flex;
+  justify-content: center;
+
+  :global {
+    .selected {
+      a {
+        color: #fff;
+        background-color: #fe5f1e;
+      }
+    }
+  }
+
+  li {
+    display: inline-block;
+
+    a {
+      width: 45px;
+      height: 45px;
+
+      display: inline-block;
+      text-align: center;
+      line-height: 42px;
+
+      margin-right: 10px;
+
+      color: #fe5f1e;
+      border-radius: 50%;
+      border: 1px solid #fe5f1e;
+
+      cursor: pointer;
+
+      transition: all 0.2s linear;
+
+      &:hover {
+        color: #fff;
+        background-color: #fe5f1e;
+      }
+    }
+  }
+}
