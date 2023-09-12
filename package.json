@@ -1,6 +1,7 @@
 {
   "name": "react-pizza",
   "version": "0.1.0",
+  "homepage": "https://ArtLevel.github.io/React-pizza",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.3",
@@ -8,6 +9,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.3.4",
+    "gh-pages": "^6.0.0",
     "lodash.debounce": "^4.0.8",
     "qs": "^6.11.1",
     "react": "^18.2.0",
